@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+nav img{
+    cursor: pointer;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+}
+
+button {
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}

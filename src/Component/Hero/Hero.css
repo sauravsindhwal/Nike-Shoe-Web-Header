@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+main .hero_content {
+    width: 40%;
+}
+
+.hero_btn {
+    display: flex;
+    gap: 10px;
+    height: 30px;
+}
+
+button.btn {
+    background: transparent;
+    border: 1px solid black;
+    color: var(--gray);
+    border-radius: 2px;
+}
+
+.shoe_img {
+    width: 40%;
+}
+
+.brand_icon {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+main h1 {
+    height: 300px;
+    width: 595px;
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 0;
+}
+
+main .text {
+    height: 91px;
+    width: 404px;
+    
+}
+
+span{
+    color: var(--red)
+}
